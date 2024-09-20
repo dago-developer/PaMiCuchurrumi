@@ -1,0 +1,5 @@
+/*Selector universal, seleccionas toodo del html*/
+* {
+    /*la distancia entre dos elementos, todas las di*/
+    margin: 0px;
+}

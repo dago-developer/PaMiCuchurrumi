@@ -1,0 +1,28 @@
+nav{
+    /* padding es para alejar elementos peque;os dentro de otros
+    y margin para alejar elementos externos  */
+    padding: 10px;
+    /* los valores se leen en el sentido
+    de las agujas del reloj, iniciando desde las 12
+    padding> 10px 20px 10px 20px
+    es decir> 10px arriba
+              20px a la derecha
+              10px abajo 
+              20px a la izquierda 
+    
+    Este muestra el display como se muestran los elemnetos */
+
+     display: flex; 
+     /*para volver todo fila  pero si lo quiero
+    hacer mas directo hariamos:*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
