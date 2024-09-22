@@ -11,26 +11,31 @@
 .contenedor-uno{
     display: flex;
     background-color: transparent;
+    width: 1200px;
     
 }
 
-.div0 {
+.div1 {
     flex: 0;
     padding: 0;
+    background-color: #474747;
+    width: 20%;
     
 
-}
-
-.div1{
-    flex: 1;
-    padding: 0px;
-    display: flex;
-}   
+}s
 
 .div2{
-    flex: 1;
+    display: flex;
+    flex-direction: column;
     padding: 0px;
-    height: 10px;
+    width: 40%;
+    
+}   
+
+.div3{
+    
+    padding: 0px;
+    width: 40%;
 }
 
 .item1-0{
@@ -40,19 +45,4 @@
     position: relative;
 }
 
-.item1-1{
-    padding-top: 10px;
-    display: flex;
-    position: relative;
-    top: 300px;
-    right: 200px;
-}
-
-.item1{
-    padding-top: 0px;
-    display: flex;
-    position: relative;
-    top: 300px;
-    right: 200px;
-}
 
