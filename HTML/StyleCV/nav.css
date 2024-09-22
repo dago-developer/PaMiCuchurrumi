@@ -1,0 +1,13 @@
+h1 { 
+    display: flex;
+    height: 300;
+    width: 300;
+    background-color: rgb(248, 248, 248);
+    box-sizing: border-box;
+    padding: 3px;
+    writing-mode: vertical-lr;
+    letter-spacing: 3px;
+    text-orientation: upright;
+    font-size: 50px;
+    
+}

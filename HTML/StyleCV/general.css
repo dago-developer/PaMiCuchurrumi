@@ -1,0 +1,60 @@
+   * { font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+    background-color: #636060;
+
+}
+
+.contenedor-uno{
+    display: flex;
+    height: 300px;
+    gap: 3px;
+    flex-grow: 1;
+}
+
+.div0 .div1 .div2{
+    width: 21em;
+    height: 25em;
+    background-color: white;
+    box-shadow: 5px 5px 25px #636060;
+    padding: 10px 30px;
+}
+
+.div1{
+    inset-inline-start: 10px;
+}
+
+ h1 {
+    margin-right: 0px;
+    align-items: center;
+}
+/*
+.contenedor-uno {
+    display: flex;
+     color: blueviolet;
+     justify-content: center;
+     align-items: center;
+     min-width: 200px;
+}
+
+.contenedor-uno > div{
+
+    width: 500;
+    height: 800;
+    background-color: none;
+    margin: 50px;
+
+
+}
+*/
+
+image{
+    width: 200;
+    height: 300;
+    box-sizing: border-box;
+    align-items: center;
+    -ms-flex-item-align: start;
+}

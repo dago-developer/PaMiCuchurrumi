@@ -1,3 +1,11 @@
+/*selector espacial, es decir que con esto tenemos
+una caja con informacion (variable)*/
+:root{
+    --color-principal: rgb(0, 195, 255);
+    --boder-color: red;  
+
+}
+
 nav{
     /* padding es para alejar elementos peque;os dentro de otros
     y margin para alejar elementos externos  */
@@ -15,7 +23,8 @@ nav{
      display: flex; 
      /*para volver todo fila  pero si lo quiero
     hacer mas directo hariamos:*/
-    justify-content: center;
+    justify-content: space-between;
+    /** Maneja el eje secundario de los elementos**/
     align-items: center;
 
 }
@@ -24,5 +33,43 @@ nav > div {
     display: flex;
     justify-content: center;
     align-items: center;
+    /** espacio entre los elementos **/
     gap: 12px;
+    
+}
+
+/*Las clases se utilizan para darle estilos
+a un grupo de elementos*/
+
+.:hover:hover{
+font-weight: 600;
+cursor: pointer;
+     
+}
+
+/*Para llamar el ID debes colocar # para que el css
+identifique que estas llamando esa propiedad*/
+#contacto{
+    background-color: white;
+    color: red;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+/*Pseudo elementos
+Maneja el estado de un elemento*/
+/* lista de pseudoclases
+:active (cuando haces click)
+:focus (cuando seleccionas)
+:hover (cuando se pasa el mouse)
+:visited (cuando ya se visito)
+:link (cuando no se a visitado)
+:first-child (primer hijo)
+:last-child (ultimo hijo)
+*/
+#contacto:hover { 
+    background-color: var(--color-principal);
+    cursor: pointer;
+    /*transition es para darle transicion a un elemento*/
+     
+    
 }
